@@ -56,7 +56,8 @@ Now you can inspect temporary directory after the script ends.
 =head1 DESCRIPTION
 
 This module patches L<File::Temp> to disable automatic cleanup of temporary
-directories. Useful for debugging.
+directories. In addition, it prints the created temporary directory to stdout.
+Useful for debugging.
 
 
 =head1 SEE ALSO
